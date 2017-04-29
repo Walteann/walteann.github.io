@@ -1,0 +1,190 @@
+/********* NAVEGADOR ********/
+
+.navbar {
+	background-color: #222222;
+	text-transform: uppercase;
+	font-family: 'Comic Sans MS',Arial,sans-serif;
+	opacity: 0.9;
+	font-weight: 700;
+	
+}
+
+.navbar a {
+	color: #98d2ff !important;
+	opacity: 0.7 ;
+}
+
+.navbar a:hover,{
+	opacity: 1;
+	background-color: #13181b !important;
+}
+
+
+.navbar button:hover {
+	opacity: 1;
+	background-color: #13181b !important;
+}
+
+.navbar-brand {
+	font-family: "Economica",Arial,sans-serif;
+	font-size: 30px;
+	color: #13181b !important;
+}
+
+
+/******** HEADER ********/
+
+.header {
+	height: 450px;
+	width: 100%;
+	padding: 30px 0 30px;
+	
+	background-image: url(../imagem/bg.png);
+	background-position: center center;
+	background-position: no-repeat;
+	background-size: cover;
+	color: #FFFFFF;
+}
+
+.header h1 {
+	font-family: "Handlee",Arial,sans-serif;
+	font-size: 30pt;
+	font-weight: 500;
+	padding-top: 240px;
+	text-align: center;
+}
+
+
+/***** SobreMim*******/
+
+.sobreMim{
+	width:100%;
+	background-color: #FFF;
+	background-image: url(../imagem/sobreMim.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	
+	
+		
+}
+
+.sobreMim img {
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	margin: 50px;
+	margin-bottom: 25px;
+}
+
+
+.sobreMim h2{
+	margin-top: -5px;
+	font-family: "Handlee",Arial,sans-serif;
+	font-weight: 700;
+	color: #241e1f;
+}
+.sobreMim p{
+	font-family: "Calibri",Arial,sans-serif;
+	font-weight: 600;
+	color: #241e1f;
+}
+.sobreMim #sobremim{
+	margin: 15px 15px 45px 15px;
+	
+}
+
+
+/**** PERFIL ***/
+
+
+.perfil {
+	width: 100%;
+	background-color: #ffefd1;
+	
+		
+}
+
+.meuPerfil{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	text-align: center;
+	
+	
+}
+
+.oPerfil{
+	height: 200px;
+	width: 150px;
+	margin-top: 30px;
+	
+	
+	
+}
+
+.perfil img {
+	height: 60px;
+	margin: 15px 0 15px 0;
+	margin-top: 15px;
+	
+}
+
+.imagem {
+	height: 90px;
+	width: 90px;
+	background-color: #FFF;
+	border-radius: 50%;
+	margin: 0 auto;
+	
+}
+
+.oPerfil h5 {
+	text-transform: uppercase;
+	font-family: "Economica", Arial,sans-serif;
+	font-weight: 900;
+	font-size: 12pt;
+}
+
+.oPerfil p {
+	font-family: "Comic Sans MS",Arial,sans-serif;
+	font-weight: 400;
+}
+
+
+
+
+@media(max-width: 768){
+	
+	.header {
+		padding: 30px;
+		height: 750px;
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
