@@ -50,8 +50,9 @@ body{
 }
 
 .header h1 {
-	font-family: "Handlee",Arial,sans-serif;
-	font-size: 30pt;
+	color: #FFF;
+	font-family: "Currier new",Arial,sans-serif;
+	font-size: 10pt;
 	font-weight: 500;
 	padding-top: 240px;
 	text-align: center;
@@ -205,6 +206,7 @@ body{
 
 
 .habilidades {
+	padding: 35px 0 30px;
 	width: 100%;
 	display: flex;
 	flex-direction: column;
@@ -212,6 +214,7 @@ body{
 	text-align: center;
 	align-items: center;
 	background-color: #f3fcfc;
+	padding-bottom: 30px;
 	
 }
 
@@ -242,19 +245,124 @@ body{
 	margin: 5px;
 }
 .idiomas .teste{
-	margin-top: -25px;
+	margin-top: -27px;
 	text-align: right
 }
 
+.habilidades h1,h2 {
+	font-size: 25pt;
+	font-family: "Economica",Arial,sans-serif;
+	text-transform: uppercase;
+	
+}
+
+.habilidades label {
+	font-family: "Economica",Arial,sans-serif;
+	font-size: 15pt;
+}
+.habilidades i {
+	font-size: 14pt;
+}
+/*** CONTATOS ***/
+
+.contatos {
+	padding: 15px 0 0;
+	background-color: #13181b;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	
+	
+}
+.contatos h2 {
+	text-align: center;
+	color: #56636e;
+}
+
+.contatos i {
+	color:#98d2ff;
+	font-size: 20pt;
+	margin-bottom: 10px;
+}
+.contatos span{
+	color: #56636e;
+	margin-left: 15px;
+}
+.anexos a{
+	color: #56636e;
+	margin-left:15px;
+	
+}
+
+.anexos a:hover{
+	cursor:pointer;
+	color: #98d2ff;
+}
 
 
+.rodapefinal{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+	margin-top: -15px;
+}
+.minhasRedes {
+	height: 55px;
+	width: 300px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	text-align: center;
+	margin-bottom: -10px;
+	
+}
+.minhasRedes div {
+	
+	height: 50px;
+	width: 50px;
+	padding: 10px;
+	
+}
+
+.redesocial {
+	padding: 12px;
+}
+
+.redesocial i {
+	color: #56636e;
+	font-size: 25pt;
+	transition: all 0.6s ease-out;	
+}
+
+.redesocial i:hover {
+	color: #98d2ff ;
+	font-size: 28pt;
+	cursor: pointer;
+	transform: translateY(-10px);
+	
+}
+
+/*** RODAPE **/
+.rodape {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: #13181b;
+	text-align: center;
+	color: #56636e;
+	
+}
 
 
-@media(max-width: 768){
+/** TESTE **/
+@media only screen and (min-width: 768px){
 	
 	.header {
 		padding: 30px;
-		height: 750px;
+		height: 600px;
+	}
+	.header h1 {
+		font-size: 50pt;
 	}
 	
 }
