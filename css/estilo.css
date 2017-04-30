@@ -200,20 +200,54 @@ body{
 
 /****** habilidades ******/
 
+
+
+
+
 .habilidades {
 	width: 100%;
-	padding: 50px 0 50px ;
-}
-
-.habilidades{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	text-align: center;
+	align-items: center;
+	background-color: #f3fcfc;
 	
-	width: 300px;
-	padding: 10px;
 }
 
-.habilidades .teste{
-	text-align: right;
+.habilidades .skills{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
 }
+
+
+.habilidades .skills2{
+	height: 80px;
+	width:80px;
+}
+
+.habilidades img {
+	
+	width: 50px;
+	margin: 15px;
+	
+}
+
+.idiomas {
+	padding: 10px;
+	text-align: left;
+	width: 300px;
+	margin: 5px;
+}
+.idiomas .teste{
+	margin-top: -25px;
+	text-align: right
+}
+
+
+
 
 
 @media(max-width: 768){
