@@ -1,6 +1,6 @@
 body{
 	overflow-x: hidden;
-	overflow-y:hidden;
+	
 }
 /********* NAVEGADOR ********/
 
@@ -58,7 +58,7 @@ body{
 	width: 300px;
 	text-align: center;
 	margin: 0 auto;
-	margin-top: 250px;
+	margin-top: 275px;
 }
 
 .header div span {
@@ -385,15 +385,22 @@ body{
 	
 	
 	.header .testeT{
-		
-	}
-	.header div span {
-		font-size: 60;
-	}
+	
+	height: 150px;
+	width: auto;
+	
+	margin-top: 320px;
+}
+
+.header div span {
+	
+	font-size: 50px;
+	
+}
 	
 	
 	.oPerfil {
-		margin-left: 50px;
+		margin-left: 45px;
 	}
 	
 	.sobreMim{
@@ -425,9 +432,6 @@ body{
 
 @media only screen and (min-width: 985px){
 	
-	body{
-		overflow-y:visible;
-	}
 	
 	
 	
