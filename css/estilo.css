@@ -8,32 +8,78 @@ body{
 	overflow-x: hidden;
 	
 }
+
 /********* NAVEGADOR ********/
 
-.navbar {
+
+
+.menu-fixo{
+	background-color:#13181b;
+}
+
+.menu-fixo div ul li a {
+	color: #98d2ff !important;
+}
+
+.menu-fixo a:hover{
+	background-color: red;
+}
+.menu-fixo .navbar-brand {
+	color: #98d2ff !important;
+}
+
+.menu-fixo .icon-bar {
+	background-color: #98d2ff !important;
+}
+
+
+
+
+/** teste **/
+
+
+
+
+.navbar-default{
+	background-color: rgba(0,0,0,0.0);
+}
+
+.navbar{
 	width:100%;
-	background-color: #222222;
 	text-transform: uppercase;
 	font-family: 'Comic Sans MS',Arial,sans-serif;
-	opacity: 0.9;
+	transition: background-color 1s ease 0s;
 	font-weight: 700;
 	
 }
 
 .navbar a {
-	color: #98d2ff !important;
+	color: #13181b !important;
 	opacity: 0.7 ;
 }
 
-.navbar a:hover,{
-	opacity: 1;
-	background-color: #13181b !important;
+.navbar a:hover{
+	background-color: #13181b ;
+}
+
+.navbar .icon-bar{
+	background-color: #13181b ;
+}
+
+
+.navbar .navbar-collapse a {
+	background-color: #13181b;
+	text-align: center;
+	color: #98d2ff !important;
+}
+.navbar .navbar-collapse a:hover {
+	background-color: rgba(24,32,37,0.8);
 }
 
 
 .navbar button:hover {
 	opacity: 1;
-	background-color: #13181b !important;
+	
 }
 
 .navbar-brand {
