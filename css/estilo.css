@@ -181,6 +181,7 @@ body{
 /***** PORTFOLIO *****/
 
 .portfolio {
+	width: 100%;
 	background-color: #c1eafb;
 	padding: 50px 0 40px;
 	display: flex;
@@ -293,6 +294,7 @@ body{
 /*** CONTATOS ***/
 
 .contatos {
+	width: 100%;
 	padding: 15px 0 0;
 	background-color: #13181b;
 	display: flex;
