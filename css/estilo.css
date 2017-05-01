@@ -1,5 +1,6 @@
 body{
 	overflow-x: hidden;
+	overflow-y:hidden;
 }
 /********* NAVEGADOR ********/
 
@@ -47,15 +48,26 @@ body{
 	background-position: no-repeat;
 	background-size: cover;
 	color: #FFFFFF;
+	
+	
 }
 
-.header h1 {
+.header .testeT{
+	
+	height: 100px;
+	width: 300px;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 250px;
+}
+
+.header div span {
 	color: #FFF;
-	font-family: "Currier new",Arial,sans-serif;
-	font-size: 10pt;
+	font-size: 25px;
 	font-weight: 500;
 	padding-top: 240px;
 	text-align: center;
+	
 }
 
 
@@ -370,8 +382,13 @@ body{
 		padding: 30px;
 		height: 600px;
 	}
-	.header h1 {
-		font-size: 50pt;
+	
+	
+	.header .testeT{
+		
+	}
+	.header div span {
+		font-size: 60;
 	}
 	
 	
@@ -407,6 +424,12 @@ body{
 }
 
 @media only screen and (min-width: 985px){
+	
+	body{
+		overflow-y:visible;
+	}
+	
+	
 	
 	.oPerfil {
 		margin-left: 0px;
