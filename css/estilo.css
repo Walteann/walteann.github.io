@@ -21,9 +21,7 @@ body{
 	color: #98d2ff !important;
 }
 
-.menu-fixo a:hover{
-	background-color: red;
-}
+
 .menu-fixo .navbar-brand {
 	color: #98d2ff !important;
 }
@@ -32,7 +30,10 @@ body{
 	background-color: #98d2ff !important;
 }
 
-
+.menu-fixo .navbar-collapse a:hover {
+	background-color: #000000;
+	color: #cfe6f8 !important;
+}
 
 
 /** teste **/
@@ -49,7 +50,7 @@ body{
 	text-transform: uppercase;
 	font-family: 'Comic Sans MS',Arial,sans-serif;
 	transition: background-color 1s ease 0s;
-	font-weight: 700;
+	font-weight: 900;
 	
 }
 
@@ -68,13 +69,21 @@ body{
 
 
 .navbar .navbar-collapse a {
-	background-color: #13181b;
+	background-color: none;
+	text-align: center;
+	color: #13181b !important;
+}
+
+.menu-fixo .navbar-collapse a {
+	background-color: none;
 	text-align: center;
 	color: #98d2ff !important;
 }
 .navbar .navbar-collapse a:hover {
-	background-color: rgba(24,32,37,0.8);
+	background-color: rgba(19,24,27,0.1) !important;
 }
+
+
 
 
 .navbar button:hover {
@@ -106,6 +115,7 @@ body{
 }
 
 .header .testeT{
+	font-family: "Jura",Arial,sans-serif;
 	
 	height: 100px;
 	width: 300px;
