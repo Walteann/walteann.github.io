@@ -445,11 +445,13 @@ body{
 
 /*** RODAPE **/
 .rodape {
+	font-family: "Roboto",arial,sans-serif;
+	font-weight: 900;
 	padding-top: 15px;
 	padding-bottom: 15px;
 	background-color: #13181b;
 	text-align: center;
-	color: #56636e;
+	color: #56636e !important;
 	
 }
 
@@ -503,7 +505,6 @@ body{
 		flex-wrap: wrap;
 		
 	}
-	
 	
 	
 	
