@@ -81,6 +81,21 @@ body{
 	text-align: center;
 	color: #98d2ff !important;
 }
+
+.navbar .navbar-collapse a:active {
+	background-color: rgba(19,24,27,0.1) !important;
+}
+
+.menu-fixo .navbar-collapse a:active {
+	background-color: rgba(19,24,27,0.2);
+}
+
+.menu-fixo .navbar-collapse .scroll #sobreMim:active {
+	background-color: blue;
+}
+
+
+
 .navbar .navbar-collapse a:hover {
 	background-color: rgba(19,24,27,0.1) !important;
 }
