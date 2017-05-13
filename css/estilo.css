@@ -1,26 +1,22 @@
 * {
-
-    padding: 0;
-    margin: 0;
+	padding: 0;
+	margin: 0;
 }
 
-body{
+body {
 	overflow-x: hidden;
-	
 }
+
 
 /********* NAVEGADOR ********/
 
-
-
-.menu-fixo{
-	background-color:#13181b;
+.menu-fixo {
+	background-color: #13181b;
 }
 
 .menu-fixo div ul li a {
 	color: #98d2ff !important;
 }
-
 
 .menu-fixo .navbar-brand {
 	color: #98d2ff !important;
@@ -38,36 +34,30 @@ body{
 
 /** teste **/
 
-
-
-
-.navbar-default{
-	background-color: rgba(0,0,0,0.0);
+.navbar-default {
+	background-color: rgba(0, 0, 0, 0.0);
 }
 
-.navbar{
-	
-	width:100%;
+.navbar {
+	width: 100%;
 	text-transform: uppercase;
-	font-family: 'Roboto',Arial,sans-serif;
+	font-family: 'Roboto', Arial, sans-serif;
 	transition: background-color 1s ease 0s;
 	font-weight: 900;
-	
 }
 
 .navbar a {
 	color: #13181b !important;
-	opacity: 0.7 ;
+	opacity: 0.7;
 }
 
-.navbar a:hover{
-	background-color: #13181b ;
+.navbar a:hover {
+	background-color: #13181b;
 }
 
-.navbar .icon-bar{
-	background-color: #13181b ;
+.navbar .icon-bar {
+	background-color: #13181b;
 }
-
 
 .navbar .navbar-collapse a {
 	font-weight: 900;
@@ -83,46 +73,38 @@ body{
 }
 
 .navbar .navbar-collapse a:active {
-	background-color: rgba(19,24,27,0.1) !important;
+	background-color: rgba(19, 24, 27, 0.1) !important;
 }
 
 .menu-fixo .navbar-collapse a:active {
-	background-color: rgba(19,24,27,0.2);
+	background-color: rgba(19, 24, 27, 0.2);
 }
 
 .menu-fixo .navbar-collapse .scroll #sobreMim:active {
 	background-color: blue;
 }
 
-
-
 .navbar .navbar-collapse a:hover {
-	background-color: rgba(19,24,27,0.1) !important;
+	background-color: rgba(19, 24, 27, 0.1) !important;
 }
-
-
-
 
 .navbar button:hover {
 	opacity: 1;
-	
 }
 
 .navbar-brand {
-	font-family: "Jura",Arial,sans-serif;
+	font-family: "Jura", Arial, sans-serif;
 	font-size: 30px;
-	
 	color: #13181b !important;
 	text-transform: none;
 }
 
-.navbar-brand span{
-	font-family: "Courier New",Arial,sans-serif;
-	
+.navbar-brand span {
+	font-family: "Courier New", Arial, sans-serif;
 }
 
-.menu-fixo .navbar-brand span{
-	font-family: "Courier New",Arial,sans-serif;
+.menu-fixo .navbar-brand span {
+	font-family: "Courier New", Arial, sans-serif;
 	color: red;
 }
 
@@ -133,19 +115,15 @@ body{
 	height: 450px;
 	width: 100%;
 	padding: 30px 0 30px;
-	
 	background-image: url(../imagem/bkground.jpg);
 	background-position: center center;
 	background-position: no-repeat;
 	background-size: cover;
 	color: #FFFFFF;
-	
-	
 }
 
-.header .testeT{
-	font-family: "Jura",Arial,sans-serif;
-	
+.header .testeT {
+	font-family: "Jura", Arial, sans-serif;
 	height: 100px;
 	width: 300px;
 	text-align: center;
@@ -159,14 +137,13 @@ body{
 	font-weight: 700;
 	padding-top: 240px;
 	text-align: center;
-	
 }
 
 
 /***** SobreMim*******/
 
-.sobreMim{
-	width:100%;
+.sobreMim {
+	width: 100%;
 	background-color: #FFF;
 	background-image: url(../imagem/sobreMim.png);
 	background-repeat: no-repeat;
@@ -174,8 +151,6 @@ body{
 	text-align: center;
 	padding-top: 50px;
 	padding-bottom: 100px;
-	
-		
 }
 
 .sobreMim img {
@@ -186,59 +161,51 @@ body{
 	margin-bottom: 25px;
 }
 
-
-.sobreMim h2{
+.sobreMim h2 {
 	margin-top: -5px;
-	font-family: "Handlee",Arial,sans-serif;
+	font-family: "Handlee", Arial, sans-serif;
 	font-weight: 700;
 	color: #241e1f;
 }
-.sobreMim p{
-	font-family: "Calibri",Arial,sans-serif;
+
+.sobreMim p {
+	font-family: "Calibri", Arial, sans-serif;
 	font-weight: 600;
 	color: #241e1f;
 }
-.sobreMim #sobremim{
+
+.sobreMim #sobremim {
 	margin: 15px 15px 45px 15px;
-	
 }
 
 
 /**** PERFIL ***/
-
 
 .perfil {
 	width: 100%;
 	background-color: #ffefd1;
 	padding-top: 50px;
 	padding-bottom: 50px;
-		
 }
 
-.meuPerfil{
+.meuPerfil {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
 	flex-wrap: wrap;
 	text-align: center;
-	
-	
 }
 
-.oPerfil{
+.oPerfil {
 	height: 200px;
 	width: 150px;
 	margin-top: 30px;
-	
-	
-	
 }
 
 .perfil img {
 	height: 60px;
 	margin: 15px 0 15px 0;
 	margin-top: 15px;
-	
 }
 
 .imagem {
@@ -247,22 +214,21 @@ body{
 	background-color: #FFF;
 	border-radius: 50%;
 	margin: 0 auto;
-	
 }
 
 .oPerfil h5 {
 	text-transform: uppercase;
-	font-family: "Comic Sans MS",Arial,sans-serif;
+	font-family: "Comic Sans MS", Arial, sans-serif;
 	font-weight: 700;
 	font-size: 10pt;
 	margin-bottom: 2px;
 }
 
 .oPerfil p {
-	
-	font-family: "Comic Sans MS",Arial,sans-serif;
+	font-family: "Comic Sans MS", Arial, sans-serif;
 	font-weight: 200;
 }
+
 
 /***** PORTFOLIO *****/
 
@@ -278,45 +244,38 @@ body{
 	align-items: center;
 	padding-top: 160px;
 	padding-bottom: 160px;
-		
 }
+
 .portfolio h2 {
 	text-transform: uppercase;
-	font-family: "Economica",Arial,sans-serif;
+	font-family: "Economica", Arial, sans-serif;
 	font-size: 30pt;
 	font-weight: 700;
-		
 }
 
 .meuPortfolio {
 	width: 250px;
 }
 
-.meuPortfolio img{
+.meuPortfolio img {
 	width: 200px;
 	margin: 10px;
 	border-radius: 15px;
-		
 }
 
 .meuPortfolio h3 {
-	font-family: "Handlee",Arial,sans-serif;
+	font-family: "Handlee", Arial, sans-serif;
 	font-weight: 700;
 	text-transform: uppercase;
 	font-size: 15pt;
 }
 
 .meuPortfolio p {
-	font-family: "Comic Sans MS",Arial,sans-serif;
-	
+	font-family: "Comic Sans MS", Arial, sans-serif;
 }
 
 
 /****** habilidades ******/
-
-
-
-
 
 .habilidades {
 	padding: 165px 0 30px;
@@ -328,28 +287,23 @@ body{
 	align-items: center;
 	background-color: #f3fcfc;
 	padding-bottom: 165px;
-	
-	
 }
 
-.habilidades .skills{
+.habilidades .skills {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
 	flex-wrap: wrap;
 }
 
-
-.habilidades .skills2{
+.habilidades .skills2 {
 	height: 80px;
-	width:80px;
+	width: 80px;
 }
 
 .habilidades img {
-	
 	width: 50px;
 	margin: 15px;
-	
 }
 
 .idiomas {
@@ -358,25 +312,29 @@ body{
 	width: 300px;
 	margin: 5px;
 }
-.idiomas .teste{
+
+.idiomas .teste {
 	margin-top: -27px;
 	text-align: right
 }
 
-.habilidades h1,h2 {
+.habilidades h1,
+h2 {
 	font-size: 25pt;
-	font-family: "Economica",Arial,sans-serif;
+	font-family: "Economica", Arial, sans-serif;
 	text-transform: uppercase;
-	
 }
 
 .habilidades label {
-	font-family: "Economica",Arial,sans-serif;
+	font-family: "Economica", Arial, sans-serif;
 	font-size: 15pt;
 }
+
 .habilidades i {
 	font-size: 14pt;
 }
+
+
 /*** CONTATOS ***/
 
 .contatos {
@@ -386,42 +344,42 @@ body{
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
-	
-	
 }
+
 .contatos h2 {
 	text-align: center;
 	color: #56636e;
 }
 
 .contatos i {
-	color:#98d2ff;
+	color: #98d2ff;
 	font-size: 20pt;
 	margin-bottom: 10px;
 }
-.contatos span{
+
+.contatos span {
 	color: #56636e;
 	margin-left: 15px;
 }
-.anexos a{
+
+.anexos a {
 	color: #56636e;
-	margin-left:15px;
-	
+	margin-left: 15px;
 }
 
-.anexos a:hover{
-	cursor:pointer;
+.anexos a:hover {
+	cursor: pointer;
 	color: #98d2ff;
 }
 
-
-.rodapefinal{
+.rodapefinal {
 	display: flex;
 	flex-direction: column;
 	text-align: center;
 	align-items: center;
 	margin-top: -15px;
 }
+
 .minhasRedes {
 	height: 55px;
 	width: 300px;
@@ -430,14 +388,12 @@ body{
 	justify-content: center;
 	text-align: center;
 	margin-bottom: -10px;
-	
 }
+
 .minhasRedes div {
-	
 	height: 50px;
 	width: 50px;
 	padding: 10px;
-	
 }
 
 .redesocial {
@@ -447,108 +403,76 @@ body{
 .redesocial i {
 	color: #56636e;
 	font-size: 25pt;
-	transition: all 0.6s ease-out;	
+	transition: all 0.6s ease-out;
 }
 
 .redesocial i:hover {
-	color: #98d2ff ;
+	color: #98d2ff;
 	font-size: 28pt;
 	cursor: pointer;
 	transform: translateY(-10px);
-	
 }
 
+
 /*** RODAPE **/
+
 .rodape {
-	font-family: "Roboto",arial,sans-serif;
+	font-family: "Roboto", arial, sans-serif;
 	font-weight: 900;
 	padding-top: 15px;
 	padding-bottom: 15px;
 	background-color: #13181b;
 	text-align: center;
 	color: #56636e !important;
-	
 }
 
 
 /** TESTE **/
-@media only screen and (min-width: 768px){
-	
+
+@media only screen and (min-width: 768px) {
 	.header {
 		padding: 30px;
 		height: 600px;
 	}
-	
-	
-	.header .testeT{
-	
-	height: 150px;
-	width: auto;
-	
-	margin-top: 320px;
-}
-
-.header div span {
-	
-	font-size: 50px;
-	
-}
-	
-	
+	.header .testeT {
+		height: 150px;
+		width: auto;
+		margin-top: 320px;
+	}
+	.header div span {
+		font-size: 50px;
+	}
 	.oPerfil {
 		margin-left: 45px;
 	}
-	
-	.sobreMim{
+	.sobreMim {
 		display: flex;
 		flex-direction: row;
 		justify-content: center;
 		align-items: center;
 	}
-	
 	#sobremim {
-		
 		width: 700px;
-		
 	}
-	
-	
 	.port {
 		display: flex;
 		flex-direction: row;
-		justify-content:space-around;
+		justify-content: space-around;
 		flex-wrap: wrap;
-		
 	}
-	
-	
-	
 }
 
-@media only screen and (min-width: 985px){
-	
-	
-	
-	
+@media only screen and (min-width: 985px) {
 	.oPerfil {
 		margin-left: 0px;
 	}
-	
-
 	.resumo {
 		display: flex;
-		
 	}
-	
-	
-	#sobremim P{
+	#sobremim P {
 		width: 700px;
-		
 	}
-	
-	
-	
-	.meuPortfolio .strings{
+	.meuPortfolio .strings {
 		width: 220px;
 		display: flex;
 		flex-direction: column;
@@ -556,12 +480,11 @@ body{
 		text-align: center;
 		align-items: center;
 	}
-	
-	.meuPortfolio h3,p{
+	.meuPortfolio h3,
+	p {
 		text-align: center;
 		width: 200px;
 	}
-	
 	.oPerfil .perf {
 		width: 150px;
 		display: flex;
@@ -570,31 +493,4 @@ body{
 		text-align: center;
 		margin-left: -15px;
 	}
-	
-	
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
