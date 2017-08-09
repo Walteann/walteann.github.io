@@ -228,6 +228,43 @@ body {
 	font-family: "Comic Sans MS", Arial, sans-serif;
 	font-weight: 200;
 }
+/***** EXPERIENCIA ******/
+/***** PORTFOLIO *****/
+
+.sobreMim2 {
+	width: 100%;
+	background-color:#9FB6CD;
+	background-size: cover;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 100px;
+}
+
+.sobreMim2 img {
+
+	margin: 50px;
+	margin-bottom: 25px;
+}
+
+.sobreMim2 h2 {
+	
+	margin-top: 55px;
+	font-family: "Handlee", Arial, sans-serif;
+	font-weight: 700;
+	color: #241e1f;
+}
+
+.sobreMim2 p {
+	font-family: "Calibri", Arial, sans-serif;
+	font-size: 12pt;
+	font-weight: 600;
+	color: #241e1f;
+}
+
+.sobreMim2 #experiencia {
+	margin: 15px 15px 45px 15px;
+}
+
 
 
 /***** PORTFOLIO *****/
@@ -454,11 +491,25 @@ h2 {
 	#sobremim {
 		width: 700px;
 	}
+	
+	.sobreMim2 {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+	}
+	#sobremim2 {
+		width: 700px;
+	}
 	.port {
 		display: flex;
 		flex-direction: row;
 		justify-content: space-around;
 		flex-wrap: wrap;
+	}
+	
+	.meuesperiencia p {
+	width: 350px;
 	}
 }
 
@@ -472,6 +523,28 @@ h2 {
 	#sobremim P {
 		width: 700px;
 	}
+	
+	#sobremim2 P {
+		width: 700px;
+	}
+	.meuesperiencia .strings {
+		width: 220px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		text-align: center;
+		align-items: center;
+	}
+	.meuesperiencia h3,
+	p {
+		text-align: center;
+		width: 200px;
+	}
+	.meuesperiencia p{
+	width: 500px;
+	}
+
+
 	.meuPortfolio .strings {
 		width: 220px;
 		display: flex;
