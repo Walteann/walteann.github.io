@@ -109,6 +109,7 @@ body {
 }
 
 
+
 /******** HEADER ********/
 
 .header {
@@ -323,6 +324,7 @@ body {
 	text-align: center;
 	align-items: center;
 	background-color: #f3fcfc;
+   /* background-image: url('../imagem/bkground.png');*/
 	padding-bottom: 165px;
 }
 
