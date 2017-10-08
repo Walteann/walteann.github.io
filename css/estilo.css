@@ -5,6 +5,7 @@
 
 body {
     overflow-x: hidden;
+    
 }
 
 
@@ -12,6 +13,7 @@ body {
 
 .menu-fixo {
     background-color: #13181b;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .menu-fixo div ul li a {
@@ -21,6 +23,10 @@ body {
 .menu-fixo .navbar-brand {
     color: #98d2ff !important;
 }
+.menu-fixo .navbar-brand:hover {
+    text-shadow: 1px 1px 2px black, 0 0 3px white, 0 0 1px white;
+}
+
 
 .menu-fixo .icon-bar {
     background-color: #98d2ff !important;
@@ -56,14 +62,16 @@ body {
 }
 
 .navbar .icon-bar {
-    background-color: #13181b;
+    background-color: #FFF;
+    box-shadow: 1px 1px black;
 }
 
 .navbar .navbar-collapse a {
     font-weight: 900;
     background-color: none;
     text-align: center;
-    color: #000000 !important;
+    color: #FFF!important;
+    text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
 }
 
 .menu-fixo .navbar-collapse a {
@@ -85,6 +93,7 @@ body {
 }
 
 .navbar .navbar-collapse a:hover {
+    color: aqua !important;
     background-color: rgba(19, 24, 27, 0.1) !important;
 }
 
@@ -97,11 +106,24 @@ body {
     font-size: 30px;
     color: #13181b !important;
     text-transform: none;
+    transition: 0.5s;
 }
+
+.navbar-header a:hover {
+    background-color: transparent !important;
+    
+}
+
+.navbar-brand:hover {
+    color: black !important;
+    text-shadow: 2px 2px 4px #000000;
+}
+
 
 .navbar-brand span {
     font-family: "Courier New", Arial, sans-serif;
 }
+
 
 .menu-fixo .navbar-brand span {
     font-family: "Courier New", Arial, sans-serif;
@@ -132,6 +154,7 @@ body {
 
 .WalCosta .centralizar {
     border-bottom: red 2px solid;
+    text-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px white;
 }
 
 .header .testeT {
@@ -146,12 +169,15 @@ body {
 .header div span {
     position: relative;
     top: -30px;
-    color: #FFF !important;
+    color: #FFF; !important;
+    text-shadow: 1px 1px 2px black, 0 0 30px black, 0 0 10px black;
     font-size: 25px;
     font-weight: 700;
     padding-top: 240px;
     text-align: center;
 }
+
+
 
 
 /***** SobreMim*******/
