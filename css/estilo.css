@@ -308,6 +308,7 @@ body {
 }
 
 
+
 /***** PORTFOLIO *****/
 
 .portfolio {
@@ -332,11 +333,11 @@ body {
 }
 
 .meuPortfolio {
-    width: 250px;
+    width: 350px;
 }
 
 .meuPortfolio img {
-    width: 200px;
+    width: 300px;
     margin: 10px;
     border-radius: 15px;
 }
