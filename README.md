@@ -2,6 +2,10 @@
 
   <a href="https://walteann.github.io/walteann">https://walteann.github.io/walteann<a>
 
+  <p> portfólio </p>
+
+  <a href="https://github.com/Walteann/walteann">https://github.com/Walteann/walteann</a>
+
 ### Build do Angular 6 agora cria uma subpasta em dist.
 
 <p>para colocar no gh-pages segue os passos</p>
