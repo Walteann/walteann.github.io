@@ -1,3 +1,31 @@
+# Walteann Portfólio
+
+  <a href="https://walteann.github.io/walteann">https://walteann.github.io/walteann<a>
+
+### Build do Angular 6 agora cria uma subpasta em dist.
+
+<p>para colocar no gh-pages segue os passos</p>
+
+<pre>
+  <code>ng build --prod --base-href "https://USERNAME.github.io/NOMEDOPROJETO/"</code>
+
+  <code>ng build --prod --base-href "https://walteannn.github.io/walteann/"</code>
+
+  <code>npx ngh --dir=href/NOMEDOPROJETO</code>
+
+  <code>npx ngh --dir=href/walteann</code>
+</pre>
+
+<p>Então o deploy é feito, e na branch gh-pages que é criada no github recebe o deploy sem a subpasta</p>
+
+
+### Comandos para remover gh-pages
+
+<pre>
+  <code>git push origin gh-pages --delete</code>
+</pre>
+
+
 # WalteannGithub
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.2.
